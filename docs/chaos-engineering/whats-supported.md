@@ -13,6 +13,22 @@ Harness Chaos Engineering is supported on the following platforms:
 - [Harness Self-Managed Enterprise Edition](#harness-self-managed-enterprise-edition)
 - [Harness Self-Managed Enterprise Edition In Offline Environments](#harness-self-managed-enterprise-edition-in-offline-environments)
 
+Harness Chaos Engineering supports faults on the following platforms. Every platform is linked to a page that lists the faults associated with the platform.
+
+- [AWS](/docs/chaos-engineering/use-harness-ce/chaos-faults/aws/)
+- [Azure](/docs/chaos-engineering/use-harness-ce/chaos-faults/azure/)
+- [Bring Your Own Chaos (BYOC)](/docs/chaos-engineering/use-harness-ce/chaos-faults/byoc/)
+- [Cloud Foundry](/docs/chaos-engineering/use-harness-ce/chaos-faults/cloud-foundry/)
+- [GCP](/docs/chaos-engineering/use-harness-ce/chaos-faults/gcp/)
+- [Kube Resilience](/docs/chaos-engineering/use-harness-ce/chaos-faults/kube-resilience/)
+- [Kubernetes](/docs/chaos-engineering/use-harness-ce/chaos-faults/kubernetes/)
+- [Linux](/docs/chaos-engineering/use-harness-ce/chaos-faults/linux/)
+- [Load](/docs/chaos-engineering/use-harness-ce/chaos-faults/load/)
+- [SSH](/docs/chaos-engineering/use-harness-ce/chaos-faults/ssh/)
+- [VMware](/docs/chaos-engineering/use-harness-ce/chaos-faults/vmware/)
+- [Windows](/docs/chaos-engineering/use-harness-ce/chaos-faults/windows/)
+
+
 ## Harness SaaS
 
 ### Chaos infrastructure
@@ -65,7 +81,7 @@ The following table shows available fault types and where they are supported. Fo
 Chaos Engineering on Harness Self-Managed Enterprise Edition is in feature parity with Harness SaaS with the following limitations:
 * Harness Enterprise ChaosHub is not connected by default.
   * Contact [Harness Support](mailto:support@harness.io) for access to the Harness Enterprise ChaosHub. Once you have access, you can add the Enterprise ChaosHub as a [custom ChaosHub](/docs/chaos-engineering/use-harness-ce/chaoshubs/).
-* Harness AI Development Assistant (AIDA™) for CE
+* Harness AI Development Assistant (AIDA™) for CE.
 
 For more information, go to [Self-Managed Enterprise Edition and CE on SMP](/docs/chaos-engineering/getting-started/smp/).
 
